@@ -14,11 +14,6 @@
 		F047CDF1229E0DCF00C57B40 /* MHShaderV.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F047CDEE229E0DCF00C57B40 /* MHShaderV.vsh */; };
 		F047CDF5229E0E6500C57B40 /* MetalPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F047CDF3229E0E6500C57B40 /* MetalPlayer.m */; };
 		F047CDF6229E0E6500C57B40 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F047CDF4229E0E6500C57B40 /* Shaders.metal */; };
-		F047CDFA229E225100C57B40 /* TestOpenGLES1.m in Sources */ = {isa = PBXBuildFile; fileRef = F047CDF9229E225100C57B40 /* TestOpenGLES1.m */; };
-		F047CDFE229E229300C57B40 /* TestOpenGLES.m in Sources */ = {isa = PBXBuildFile; fileRef = F047CDFD229E229300C57B40 /* TestOpenGLES.m */; };
-		F047CE00229E255200C57B40 /* Test1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F047CDFF229E255200C57B40 /* Test1.vsh */; };
-		F047CE02229E256900C57B40 /* test1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F047CE01229E256900C57B40 /* test1.fsh */; };
-		F047CE08229E611100C57B40 /* charger_inmap.png in Resources */ = {isa = PBXBuildFile; fileRef = F047CE07229E611000C57B40 /* charger_inmap.png */; };
 		F07C67122295322B00C64FDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F07C67112295322B00C64FDE /* AppDelegate.m */; };
 		F07C67152295322B00C64FDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07C67142295322B00C64FDE /* ViewController.m */; };
 		F07C67182295322B00C64FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07C67162295322B00C64FDE /* Main.storyboard */; };
@@ -303,13 +298,6 @@
 		F047CDF2229E0E6500C57B40 /* MetalPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalPlayer.h; sourceTree = "<group>"; };
 		F047CDF3229E0E6500C57B40 /* MetalPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalPlayer.m; sourceTree = "<group>"; };
 		F047CDF4229E0E6500C57B40 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		F047CDF8229E225100C57B40 /* TestOpenGLES1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOpenGLES1.h; sourceTree = "<group>"; };
-		F047CDF9229E225100C57B40 /* TestOpenGLES1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOpenGLES1.m; sourceTree = "<group>"; };
-		F047CDFC229E229300C57B40 /* TestOpenGLES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOpenGLES.h; sourceTree = "<group>"; };
-		F047CDFD229E229300C57B40 /* TestOpenGLES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOpenGLES.m; sourceTree = "<group>"; };
-		F047CDFF229E255200C57B40 /* Test1.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Test1.vsh; sourceTree = "<group>"; };
-		F047CE01229E256900C57B40 /* test1.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = test1.fsh; sourceTree = "<group>"; };
-		F047CE07229E611000C57B40 /* charger_inmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charger_inmap.png; sourceTree = "<group>"; };
 		F07C670D2295322B00C64FDE /* MHVideoTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHVideoTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07C67102295322B00C64FDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F07C67112295322B00C64FDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -869,32 +857,6 @@
 			path = MHMetalPlayer;
 			sourceTree = "<group>";
 		};
-		F047CDF7229E222B00C57B40 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				F07C67132295322B00C64FDE /* ViewController.h */,
-				F07C67142295322B00C64FDE /* ViewController.m */,
-				F0E7C49522963BAD0099A3FD /* TextCaptureVC.h */,
-				F0E7C49622963BAD0099A3FD /* TextCaptureVC.m */,
-				F047CDFB229E227A00C57B40 /* OpenGL ES */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		F047CDFB229E227A00C57B40 /* OpenGL ES */ = {
-			isa = PBXGroup;
-			children = (
-				F047CDFC229E229300C57B40 /* TestOpenGLES.h */,
-				F047CDFD229E229300C57B40 /* TestOpenGLES.m */,
-				F047CDF8229E225100C57B40 /* TestOpenGLES1.h */,
-				F047CDF9229E225100C57B40 /* TestOpenGLES1.m */,
-				F047CDFF229E255200C57B40 /* Test1.vsh */,
-				F047CE01229E256900C57B40 /* test1.fsh */,
-				F047CE07229E611000C57B40 /* charger_inmap.png */,
-			);
-			path = "OpenGL ES";
-			sourceTree = "<group>";
-		};
 		F07C67042295322B00C64FDE = {
 			isa = PBXGroup;
 			children = (
@@ -918,7 +880,10 @@
 				F07C67272295336D00C64FDE /* GPUImage */,
 				F07C67102295322B00C64FDE /* AppDelegate.h */,
 				F07C67112295322B00C64FDE /* AppDelegate.m */,
-				F047CDF7229E222B00C57B40 /* VC */,
+				F07C67132295322B00C64FDE /* ViewController.h */,
+				F07C67142295322B00C64FDE /* ViewController.m */,
+				F0E7C49522963BAD0099A3FD /* TextCaptureVC.h */,
+				F0E7C49622963BAD0099A3FD /* TextCaptureVC.m */,
 				F07C69F7229534EA00C64FDE /* MHVideoTools */,
 				F07C67162295322B00C64FDE /* Main.storyboard */,
 				F07C67192295323500C64FDE /* Assets.xcassets */,
@@ -1704,7 +1669,6 @@
 				F07C69A72295336F00C64FDE /* lookup.png in Resources */,
 				F047CDF0229E0DCF00C57B40 /* MHShaderF.fsh in Resources */,
 				F07C69AD2295336F00C64FDE /* valenciaMap.png in Resources */,
-				F047CE00229E255200C57B40 /* Test1.vsh in Resources */,
 				F07C69C32295336F00C64FDE /* edgeBurn.png in Resources */,
 				F07C69A62295336F00C64FDE /* xproMap.png in Resources */,
 				F07C69CA2295336F00C64FDE /* earlybirdOverlayMap.png in Resources */,
@@ -1717,12 +1681,10 @@
 				F07C671A2295323500C64FDE /* Assets.xcassets in Resources */,
 				F07C69CB2295336F00C64FDE /* softLight.png in Resources */,
 				F07C69C02295336F00C64FDE /* kelvinMap.png in Resources */,
-				F047CE02229E256900C57B40 /* test1.fsh in Resources */,
 				F07C69A32295336F00C64FDE /* nashvilleMap.png in Resources */,
 				F07C69A42295336F00C64FDE /* lomoMap.png in Resources */,
 				F07C699D2295336F00C64FDE /* lookup_soft_elegance_2.png in Resources */,
 				F07C69BA2295336F00C64FDE /* earlybirdMap.png in Resources */,
-				F047CE08229E611100C57B40 /* charger_inmap.png in Resources */,
 				F07C69BB2295336F00C64FDE /* sutroCurves.png in Resources */,
 				F047CDF1229E0DCF00C57B40 /* MHShaderV.vsh in Resources */,
 				F07C69B32295336F00C64FDE /* earlyBirdCurves.png in Resources */,
@@ -1833,7 +1795,6 @@
 				F07C691F2295336E00C64FDE /* GPUImageWeakPixelInclusionFilter.m in Sources */,
 				F07C68F32295336E00C64FDE /* GPUImageOutput.m in Sources */,
 				F07C69542295336E00C64FDE /* GPUImagePosterizeFilter.m in Sources */,
-				F047CDFA229E225100C57B40 /* TestOpenGLES1.m in Sources */,
 				F07C69592295336E00C64FDE /* GPUImageColorDodgeBlendFilter.m in Sources */,
 				F07C692E2295336E00C64FDE /* GPUImageSketchFilter.m in Sources */,
 				F07C69912295336F00C64FDE /* GPUImageExposureFilter.m in Sources */,
@@ -1892,7 +1853,6 @@
 				F07C69762295336F00C64FDE /* GPUImageRGBErosionFilter.m in Sources */,
 				F07C698B2295336F00C64FDE /* GPUImageNobleCornerDetectionFilter.m in Sources */,
 				F07C695C2295336E00C64FDE /* GPUImageSourceOverBlendFilter.m in Sources */,
-				F047CDFE229E229300C57B40 /* TestOpenGLES.m in Sources */,
 				F07C69DD2295336F00C64FDE /* FWInkwellFilter.m in Sources */,
 				F047CDF5229E0E6500C57B40 /* MetalPlayer.m in Sources */,
 				F07C69132295336E00C64FDE /* GPUImageChromaKeyFilter.m in Sources */,

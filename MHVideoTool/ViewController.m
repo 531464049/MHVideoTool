@@ -29,8 +29,8 @@
     self.tableview.dataSource = self;
     [self.view addSubview:self.tableview];
     
-    self.titleArr = @[@"摄像头采集",@"OpenGL ES"];
-    self.classArr = @[@"TextCaptureVC",@"TestOpenGLES"];
+    self.titleArr = @[@"摄像头采集"];
+    self.classArr = @[@"TextCaptureVC"];
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
